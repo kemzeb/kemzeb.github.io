@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding-bottom: 16px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.headshot {
+    border: 1px solid #ddd;
+    border-radius: 30%;
+    height: 100px;
+    padding: 4px;
+    width: 100px;
+}
+
+.my-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.my-name {
+    margin: 0px;
+    color: #334;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.quick-desc {
+    margin: 0px;
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 16px;
+    }
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    width: 220px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #333;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: #4183C4;
+}

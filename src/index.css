@@ -1,0 +1,13 @@
+:root {
+  --media-medium-max-width: 640px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Anaheim', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
