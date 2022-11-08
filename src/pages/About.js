@@ -20,7 +20,7 @@ function About() {
     {
       name: "kemzeb/portdive",
       href: "https://github.com/kemzeb/portdive",
-      desc: "CLI game inspired by Splinter Cell: Chao Theory's hacking mini-game",
+      desc: "CLI game inspired by Splinter Cell: Chaos Theory's hacking mini-game",
       skills: ["Go", "Game Development"],
       isPinned: true,
     },
