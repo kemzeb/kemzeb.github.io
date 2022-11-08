@@ -1,0 +1,26 @@
+.resolve-footer-blocking-content {
+    margin-bottom:120px;
+    width: 100%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    border-top: 1px solid rgb(163, 162, 162);
+    background-color: rgb(153, 153, 153);
+}
+
+.icons {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.icon {
+    text-decoration: none;
+    color: black;
+}
