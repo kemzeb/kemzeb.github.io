@@ -60,6 +60,19 @@ nav {
     width: 220px;
 }
 
+@media screen and (max-width: 330px) {
+    .header-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-info {
+        align-items: center;
+    }
+    .quick-desc {
+        text-align: center;
+    }
+}
+
 .nav-link {
     text-decoration: none;
     font-weight: 600;
