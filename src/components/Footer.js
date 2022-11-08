@@ -8,9 +8,8 @@ function Footer() {
         <div className="icons">
           <a className="icon" href="https://github.com/kemzeb" target="_blank" rel="noreferrer">
             <svg
+              className="svg-icon"
               xmlns="http://www.w3.org/2000/svg"
-              width="54"
-              height="54"
               fill="currentColor"
               viewBox="0 0 16 16"
             >
@@ -24,9 +23,8 @@ function Footer() {
             rel="noreferrer"
           >
             <svg
+              className="svg-icon"
               xmlns="http://www.w3.org/2000/svg"
-              width="54"
-              height="54"
               fill="currentColor"
               viewBox="0 0 16 16"
             >

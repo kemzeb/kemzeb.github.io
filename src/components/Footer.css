@@ -1,5 +1,5 @@
 .resolve-footer-blocking-content {
-    margin-bottom:120px;
+    margin-bottom:80px;
     width: 100%;
 }
 footer {
@@ -7,7 +7,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 20px;
+    padding: 10px 8px 6px 8px;
     border-top: 1px solid rgb(163, 162, 162);
     background-color: rgb(153, 153, 153);
 }
@@ -15,7 +15,6 @@ footer {
 .icons {
     margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 32px;
 }
@@ -23,4 +22,9 @@ footer {
 .icon {
     text-decoration: none;
     color: black;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
 }
