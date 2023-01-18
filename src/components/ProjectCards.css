@@ -1,9 +1,14 @@
 .project-card {
-    background-color:rgb(233, 233, 233);
+    background-color: rgb(233, 233, 233);
     border: 1px solid rgb(163, 162, 162);
     border-radius: 6px;
     box-shadow: 5px 5px 5px rgb(146, 146, 146);
     padding: 16px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .name-container {
@@ -24,14 +29,8 @@
     text-decoration: none;
 }
 
-.project-name-underlined {
-    font-weight: 600;
-    color: #334;
-    text-decoration: underline;
-}
-
-.project-name-underlined:hover {
-    color: #4183C4;
+.source-code-link:hover {
+    fill: #4183C4;
 }
 
 .desc {
@@ -54,7 +53,7 @@
 }
 
 @media screen and (max-width: 550px) {
-   .project-cards {
-    grid-template-columns: 1fr;
-   }
+    .project-cards {
+        grid-template-columns: 1fr;
+    }
 }
