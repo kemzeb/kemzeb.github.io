@@ -8,6 +8,7 @@ function About() {
       href: "https://github.com/kemzeb/habiter",
       desc: "Quantify and keep tabs on habits within the command-line",
       skills: ["Python", "SQLite", "JSON", "Unit Testing", "GitHub Actions"],
+      date: "Oct 2020",
       isPinned: true,
     },
     {
@@ -15,6 +16,7 @@ function About() {
       href: "https://github.com/kemzeb/planetvplanet",
       desc: "🌍 Web app that compares planets in our Solar System to exoplanets",
       skills: ["Java", "JavaScript", "React", "MySQL", "Spring Boot", "Unit Testing"],
+      date: "June 2022",
       isPinned: true,
     },
     {
@@ -22,6 +24,7 @@ function About() {
       href: "https://github.com/kemzeb/portdive",
       desc: "CLI game inspired by Splinter Cell: Chaos Theory's hacking mini-game",
       skills: ["Go", "Game Development"],
+      date: "Nov 2021",
       isPinned: true,
     },
     {
