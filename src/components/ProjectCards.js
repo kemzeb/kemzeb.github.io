@@ -1,6 +1,6 @@
 import "./ProjectCards.css";
 
-function ProjectCard({ name, href, desc, skills, isPinned, isAcademic }) {
+function ProjectCard({ name, href, desc, skills, date, isPinned, isAcademic }) {
   return (
     <div className="project-card">
       <div className="top-container">
@@ -29,6 +29,7 @@ function ProjectCard({ name, href, desc, skills, isPinned, isAcademic }) {
           </a>
         )}
       </div>
+      {date && <div className="project-date">{date}</div>}
       <div className="desc">{desc}</div>
       <div className="skills">Skills: {skills.join(", ")}</div>
     </div>
@@ -45,6 +46,7 @@ function ProjectCards({ projects }) {
           href={project.href}
           desc={project.desc}
           skills={project.skills}
+          date={project.date}
           isPinned={project.isPinned}
           isAcademic={project.isAcademic}
         />

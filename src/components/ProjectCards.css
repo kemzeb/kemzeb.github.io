@@ -14,7 +14,7 @@
 .name-container {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .pinned {
@@ -36,6 +36,11 @@
 .school-project {
     margin-left: 4px;
     font-size: 12px;
+}
+
+.project-date {
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .desc {
