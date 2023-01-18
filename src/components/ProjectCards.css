@@ -33,6 +33,11 @@
     fill: #4183C4;
 }
 
+.school-project {
+    margin-left: 4px;
+    font-size: 12px;
+}
+
 .desc {
     border-bottom: 1px solid grey;
     padding-bottom: 4px;
