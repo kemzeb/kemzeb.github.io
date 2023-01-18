@@ -35,7 +35,7 @@ function Projects() {
 
   const otherProjects = [
     {
-      name: "For Blades & Sorcery",
+      name: "For Kingdom & Glory",
       desc: "Medieval fantasy game powered by Unity consisting of 3 levels and a player fighting various enemies. Within a 5-person team, I implemented the enemy AI logic",
       skills: ["C#", "Unity", "Trello", "CI", "Game Development"],
       isAcademic: true,
