@@ -1,7 +1,6 @@
 import "./ProjectCards.css";
 
 function ProjectCard({ name, href, desc, skills, isPinned, isAcademic }) {
-  console.log(name, isAcademic)
   return (
     <div className="project-card">
       <div className="top-container">
@@ -54,22 +53,4 @@ function ProjectCards({ projects }) {
   );
 }
 
-function DetailedProjectCards({ detailedProjects }) {
-  return (
-    <div className="project-cards">
-      {detailedProjects.map((project, idx) => (
-        <ProjectCard
-          key={idx} // If projects adds or deletes elements, find an alternative way to create unique keys
-          name={project.name}
-          href={project.href}
-          desc={project.desc}
-          skills={project.skills}
-          isPinned={project.isPinned}
-        />
-      ))}
-    </div>
-  );
-}
-
-export { DetailedProjectCards };
 export default ProjectCards;
