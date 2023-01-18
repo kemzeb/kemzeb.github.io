@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d317365.css",
-    "main.js": "/static/js/main.16e145b4.js",
+    "main.css": "/static/css/main.d93d9e9d.css",
+    "main.js": "/static/js/main.f801e2b7.js",
     "static/js/787.8c536d32.chunk.js": "/static/js/787.8c536d32.chunk.js",
     "static/media/me.png": "/static/media/me.ef0fae030d530e189fe9.png",
+    "static/media/Anaheim-Regular.ttf": "/static/media/Anaheim-Regular.b4cdae4d98f51932af80.ttf",
     "index.html": "/index.html",
-    "main.5d317365.css.map": "/static/css/main.5d317365.css.map",
-    "main.16e145b4.js.map": "/static/js/main.16e145b4.js.map",
+    "main.d93d9e9d.css.map": "/static/css/main.d93d9e9d.css.map",
+    "main.f801e2b7.js.map": "/static/js/main.f801e2b7.js.map",
     "787.8c536d32.chunk.js.map": "/static/js/787.8c536d32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d317365.css",
-    "static/js/main.16e145b4.js"
+    "static/css/main.d93d9e9d.css",
+    "static/js/main.f801e2b7.js"
   ]
 }
