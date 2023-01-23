@@ -41,17 +41,16 @@ function About() {
       <div className="summary">
         <p>
           I'm a recent Software Engineering graduate from California State University San Marcos with
-          interests in the intersection between software engineering and evolving industries,
-          including aerospace, defense, and finance.
+          interests in the intersection between software engineering and evolving industries such as aerospace, defense,
+          and finance.
         </p>
         <p>
-          I aspire to be a generalist in the fields of SWE and CS, understanding the inner workings of
-          the highest level of computer abstractions down to the lowly assembler, and everything in
-          between.
+          I aspire to be a generalist in the fields of SWE and CS, understanding the inner workings of the highest level
+          of software abstractions down to the lowly assembler, and everything in between.
         </p>
         <p>
-          I &#128151; participating in Open Source. Here are a few projects I created or contributed
-          to recently:
+          I also strive to be an active contributor to the ever-evolving open source community. Here are a few projects
+          I created or contributed to recently:
         </p>
       </div>
       <ProjectCards projects={myProjects} />
