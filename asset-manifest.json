@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.8d88da54.css",
-    "main.js": "/static/js/main.efc2bf72.js",
-    "static/js/787.8c536d32.chunk.js": "/static/js/787.8c536d32.chunk.js",
+    "main.js": "/static/js/main.c7d767c6.js",
     "static/media/me.png": "/static/media/me.ef0fae030d530e189fe9.png",
     "static/media/Anaheim-Regular.ttf": "/static/media/Anaheim-Regular.b4cdae4d98f51932af80.ttf",
     "index.html": "/index.html",
     "main.8d88da54.css.map": "/static/css/main.8d88da54.css.map",
-    "main.efc2bf72.js.map": "/static/js/main.efc2bf72.js.map",
-    "787.8c536d32.chunk.js.map": "/static/js/787.8c536d32.chunk.js.map"
+    "main.c7d767c6.js.map": "/static/js/main.c7d767c6.js.map"
   },
   "entrypoints": [
     "static/css/main.8d88da54.css",
-    "static/js/main.efc2bf72.js"
+    "static/js/main.c7d767c6.js"
   ]
 }
